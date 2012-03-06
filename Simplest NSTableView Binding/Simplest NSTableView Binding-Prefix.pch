@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Simplest NSTableView Binding' target in the 'Simplest NSTableView Binding' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
