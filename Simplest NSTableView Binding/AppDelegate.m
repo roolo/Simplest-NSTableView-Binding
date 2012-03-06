@@ -11,10 +11,29 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize arrayController = _arrayController;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [_arrayController addObject: [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                  @"Mailo", @"name",
+                                  nil
+                                  ]
+     ];
+    
+    [_arrayController addObject: [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                  @"Renne", @"name",
+                                  nil
+                                  ]
+     ];
+    
+    [_arrayController addObject: [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                  @"Rudolph", @"name",
+                                  nil
+                                  ]
+     ];
+    
+    
 }
 
 @end
